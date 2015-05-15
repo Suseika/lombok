@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.projectlombok</groupId>
+	<groupId>org.tendiwa</groupId>
 	<artifactId>lombok</artifactId>
 	<packaging>jar</packaging>
 	<version>@VERSION@</version>
-	<name>Project Lombok</name>
-	<url>https://projectlombok.org</url>
-	<description>Spice up your java: Automatic Resource Management, automatic generation of getters, setters, equals, hashCode and toString, and more!</description>
+	<name>lombok</name>
+	<url>https://github.com/Suseika/lombok</url>
+	<description>Lombok fork featuring a custom Lazy transformation</description>
 	<dependencies></dependencies>
 	<licenses>
 		<license>
@@ -17,13 +17,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:git://github.com/rzwitserloot/lombok.git</connection>
-		<url>http://github.com/rzwitserloot/lombok</url>
+		<connection>scm:git:git://github.com/Suseika/lombok.git</connection>
+		<url>http://github.com/Suseika/lombok</url>
 	</scm>
-	<issueManagement>
-		<system>Google Code</system>
-		<url>http://code.google.com/p/projectlombok/issues</url>
-	</issueManagement>
 	<developers>
 		<developer>
 			<id>rzwitserloot</id>
@@ -42,6 +38,11 @@
 			<id>rgrootjans</id>
 			<name>Robbert Jan Grootjans</name>
 			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>Suseika</id>
+			<name>Georgy Vlasov</name>
+			<timezone>+5</timezone>
 		</developer>
 	</developers>
 </project>
